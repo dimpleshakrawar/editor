@@ -1,0 +1,63 @@
+.container {
+  background-color: grey;
+  width: 400px;
+  height: 75vh;
+  overflow-y: auto;
+  -webkit-animation: slideIn 1s forwards;
+  -moz-animation: slideIn 1s forwards;
+  animation: slideIn 1s forwards;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 5px 0;
+  background-color: rgb(211, 214, 219);
+}
+
+.module-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  padding: 8px 0;
+  background-color: rgb(61, 63, 60);
+}
+
+.module-btn,
+.add-btn,
+.expand-btn,
+.double-arrow-btn {
+  border: none;
+  background: transparent;
+}
+
+.module-btn {
+  color: white;
+  font-size: 14px;
+}

@@ -1,0 +1,40 @@
+.label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.unorderlist {
+  cursor: pointer;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-label,
+.add-option {
+  display: flex;
+}
+
+.remove-label {
+  position: relative;
+  width: 360px;
+}
+
+.add-option {
+  position: absolute;
+  left: 80%;
+  top: 5px;
+  opacity: 0;
+  gap: 5px;
+}
+
+.label:hover .add-option {
+  opacity: 1;
+}
+
+.label:hover {
+  background-color: rgb(61, 63, 60);
+}
